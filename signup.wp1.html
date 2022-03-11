@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Naresh-IT</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+            #Container-main{
+                background-color: rgb(230, 231, 231);
+                box-shadow: 1px 1px 50px 50px  rgb(102, 101, 101);
+                width: 90%;
+                height: auto;
+                margin: auto;
+                margin-top: 20px;
+              
+            }
+            .header{
+                display: flex;
+              
+                width: 100%;
+                height: 170px;
+                background-color: white;
+            }
+            #logo{
+                width: 330px;
+                height: 140px;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            #icons-social{
+                margin-left: 610px;  
+                
+            }
+            #icons-social span{
+                margin: 3px;
+                border: 1px solid rgb(79, 79, 228);
+                padding-left: 7px;
+                padding-right: 7px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-radius: 8px;
+                color: white;
+                background-color: rgb(79, 79, 228);
+            }
+            #icons-social span:hover{
+                background-color: #bb201d;
+                border: #bb201d;
+            }
+            #navbar {
+            /* border: 2px solid black; */
+            width: auto;
+            height: auto;
+            background-color:#555;
+            color: rgb(185, 177, 177);
+            padding: 8px;
+            border-radius: 5px;
+        }
+        #navbar ul {
+            display: flex;
+            list-style: none;
+            margin: auto;
+            margin-left: -30px;
+        }
+        #navbar ul li {
+          
+           border: solid wheat 1px;
+           padding: 10px;
+           color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+           
+        }
+        #navbar ul li:hover{
+            background-color: rgb(32, 32, 32);
+        }
+        .footer-rows{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            font-family: 'Roboto',sans-serif;
+        }
+        footer{
+            background-color: rgb(34, 33, 33);
+            padding: 15px;
+        }
+        .footer-rows ul li{
+            padding: 3px;
+            size: 10px;
+            color: #fff;
+        }
+        .footer-rows ul span{
+            color: #e56c69;
+        }
+        a:hover{
+      
+            color: white;
+        }
+        .container div{
+                margin-bottom: 30px;
+                margin-left: 50px;
+            }
+            button{
+                background-color: yellow;
+                height: 30px;
+                width: 150px;
+            }
+            body{
+                background-color: lightgrey;
+            }
+            #icon{
+                padding-right: 7px;
+                padding-left: 7px;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                background-color: lightgrey;
+                border: 1px grey solid;
+            }
+            .container{
+                border: 2px solid black;
+                width: 500px;
+               margin-top: 40px;
+               padding-top: 30px;
+               
+                
+            }
+            
+        
+   
+
+        </style>
+    </head>
+ <body>
+    <div id="Container-main">
+            <div class="header"> 
+                <img id="logo" src="../public/images/icons/nareshit-logohd.png" alt="Nareshit">
+                 <div>
+                     <h4 style="margin-top: 50px;
+                                 font-family: 'Open Sans',sans-serif;
+                                 color: #222;  
+                                 font-size: small;
+                                 margin-left: 610px;  ">FOLLOW US ON SOCIAL MEDIA :</h4>
+                     <div id="icons-social" class="mt-3">
+                         <span  class="bi bi-facebook"></span>
+                         <span  class="bi bi-twitter"></span>
+                         <span  class="bi bi-instagram"></span>
+                         <span  class="bi bi-linkedin"></span>
+                         <span  class="bi bi-youtube"></span>
+                     </div>
+                 </div>      
+            </div>        
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="../public/Home.wp1.html"><span class="bi bi-house-door"> Home</span></a></li>
+                        <li><a href="../public/about.wp1.html"><span class="bi bi-file-earmark-person"> About</span></a></li>
+                        <li><a href="../public/Service.wp1.html"><span class="bi bi-question-circle"> Service</span></a></li>
+                        <li><a href="../public/webpage1.html"><span class="bi bi-person"> Contact us</span></a></li>
+                        <li style="margin-left: 670px;" ><a href="../public/signup.wp1.html"><span class="bi bi-box-arrow-right signup"> Sign up</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <form >
+                <h1 id="Form-header" align="center">Regestration Form</h1>
+                <div class="container" >
+                    <div>
+                        <span id="icon" class="bi bi-person-fill" ></span> <input type="text" placeholder="First Name" name="First" size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-person-fill" ></span>   <input type="text" placeholder="Last Name" name="Last"  size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-list" ></span>   <input type="text" placeholder="Department" name="First"  size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-person-fill" ></span>  <input type="text" placeholder="User Name" name="Last"  size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-person-fill"  ></span>  <input type="text" placeholder="Password" name="First" size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-person-fill"  ></span> <input type="text" placeholder="Conform Password" name="Last"  size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-envelope-fill" ></span> <input type="text" placeholder="E-mail Address" name="Last"  size="40">
+                    </div>
+                    <div>
+                        <span id="icon" class="bi bi-telephone-fill" ></span> <input type="text" placeholder="+91" name="Last"  size="40">
+                    </div>
+                    <div>
+                        <button>Register</button>
+                    </div>
+                </div>
+            </form>
+            
+
+            <footer class="mt-3">
+                <h2 align="center" style="border: solid 1px #e56c69; font-family: Arial, Helvetica, sans-serif; padding: 5px;color: #fff;">Naresh iTechnologies</h2>
+                <div class="footer-rows">    
+                        <div>
+                            <ul>
+                                <li><span class="bi bi-facebook"></span> Facebook</li>
+                                <li><span class="bi bi-google"></span> Google</li>
+                                <li><span class="bi bi-twitter"></span> Twitter</li>
+                                <li><span class="bi bi-youtube"></span> Youtube</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><span class="bi bi-house"></span> Home</li>
+                                <li><span class="bi bi-file-person"></span> About</li>
+                                <li><span class="bi bi-gear"></span> Service</li>
+                                <li><span class="bi bi-person-lines-fill"></span> Contact</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Name : Naresh Istitute</li>
+                                <li>Email : info@nareshit.com</li>
+                                <li>Contact : +91-xxxxxxxxxx</li>
+                                <li>Address : Sr nagar, Hyderabad, Telangana, India</li>
+                            </ul>
+                        </div>
+                </div>
+            </footer>
